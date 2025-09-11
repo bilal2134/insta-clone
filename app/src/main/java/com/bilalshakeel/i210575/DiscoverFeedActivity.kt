@@ -17,10 +17,17 @@ class DiscoverFeedActivity : AppCompatActivity() {
         
         // Set up header interactions
         val qrCodeIcon = findViewById<ImageView>(R.id.qr_code_icon)
+        val searchBar = findViewById<androidx.cardview.widget.CardView>(R.id.search_bar)
         
         // QR Code icon click
         qrCodeIcon.setOnClickListener {
             // TODO: Open QR code scanner functionality
+        }
+        
+        // Search bar click - navigate to search feed
+        searchBar.setOnClickListener {
+            val intent = Intent(this, SearchFeedActivity::class.java)
+            startActivity(intent)
         }
         
         // Set up bottom navigation
