@@ -34,7 +34,8 @@ class MainFeedActivity : AppCompatActivity() {
         
         // Direct Message icon click
         directMessageIcon.setOnClickListener {
-            // TODO: Open direct messages screen
+            val intent = Intent(this, InboxActivity::class.java)
+            startActivity(intent)
         }
         
         // Set up post interactions
