@@ -45,8 +45,9 @@ class LoginActivity : AppCompatActivity() {
 
         // Login button click
         loginButtonMain.setOnClickListener {
-            // For now, just finish the activity
-            // In future, this will navigate to the main feed
+            // Navigate to main feed after login
+            val intent = Intent(this, MainFeedActivity::class.java)
+            startActivity(intent)
             finish()
         }
 
