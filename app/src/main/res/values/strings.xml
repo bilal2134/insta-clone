@@ -1,3 +1,37 @@
 <resources>
-    <string name="app_name">i210575</string>
+    <string name="app_name">Socially</string>
+    
+    <!-- Loading Screen -->
+    <string name="from_smd">from\nSMD</string>
+    
+    <!-- Signup Screen -->
+    <string name="create_account">Create An Account and Sign Up</string>
+    <string name="username">Username</string>
+    <string name="your_name">Your Name</string>
+    <string name="your_last_name">Your Last name</string>
+    <string name="date_of_birth">Date of Birth</string>
+    <string name="email">E-mail</string>
+    <string name="password">Password</string>
+    <string name="enter_email">Enter E-mail</string>
+    <string name="create_an_account">Create an Account</string>
+    
+    <!-- Sample data -->
+    <string name="sample_username">tejpatil064</string>
+    <string name="sample_name">Tejas</string>
+    <string name="sample_lastname">Patil</string>
+    <string name="sample_dob">02 - 09 - 2003</string>
+    <string name="sample_password">••••••••</string>
+    
+    <!-- Quick Login Screen -->
+    <string name="log_in">Log in</string>
+    <string name="switch_accounts">Switch accounts</string>
+    <string name="dont_have_account">Don\'t have an account?</string>
+    <string name="sign_up_link">Sign up.</string>
+    <string name="jacob_username">jacob_w</string>
+    
+    <!-- Login Screen -->
+    <string name="forgot_password">Forgot password?</string>
+    <string name="or_text">OR</string>
+    <string name="login_username">asad_khasanov</string>
+    <string name="password_hint">Password</string>
 </resources>
