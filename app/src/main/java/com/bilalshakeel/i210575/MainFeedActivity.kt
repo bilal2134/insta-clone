@@ -6,6 +6,7 @@ import android.widget.Button
 import android.widget.ImageView
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
+import androidx.cardview.widget.CardView
 import androidx.core.content.ContextCompat
 
 class MainFeedActivity : AppCompatActivity() {
@@ -86,7 +87,9 @@ class MainFeedActivity : AppCompatActivity() {
         
         // Search navigation
         searchNav.setOnClickListener {
-            // TODO: Navigate to search screen
+            val intent = Intent(this, DiscoverFeedActivity::class.java)
+            startActivity(intent)
+            finish()
         }
         
         // Add post navigation
