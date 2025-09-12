@@ -29,10 +29,40 @@ class ProfileActivity : AppCompatActivity() {
 
         // Edit Profile button
         findViewById<TextView>(R.id.edit_profile_button).setOnClickListener {
-            // Handle edit profile
+            val intent = Intent(this, EditProfileActivity::class.java)
+            startActivity(intent)
         }
 
+        // Highlight circles
+        setupHighlightCircles()
+
         setupBottomNavigation()
+    }
+
+    private fun setupHighlightCircles() {
+        // Highlight circle 1
+        findViewById<LinearLayout>(R.id.highlight_1).setOnClickListener {
+            val intent = Intent(this, HighlightActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Highlight circle 2
+        findViewById<LinearLayout>(R.id.highlight_2).setOnClickListener {
+            val intent = Intent(this, HighlightActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Highlight circle 3
+        findViewById<LinearLayout>(R.id.highlight_3).setOnClickListener {
+            val intent = Intent(this, HighlightActivity::class.java)
+            startActivity(intent)
+        }
+
+        // Highlight circle 4
+        findViewById<LinearLayout>(R.id.highlight_4).setOnClickListener {
+            val intent = Intent(this, HighlightActivity::class.java)
+            startActivity(intent)
+        }
     }
 
     private fun setupBottomNavigation() {

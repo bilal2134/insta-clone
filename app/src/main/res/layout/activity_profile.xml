@@ -226,6 +226,7 @@
 
                 <!-- New Highlight -->
                 <LinearLayout
+                    android:id="@+id/highlight_1"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -261,6 +262,7 @@
 
                 <!-- Friends Highlight -->
                 <LinearLayout
+                    android:id="@+id/highlight_2"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -293,6 +295,7 @@
 
                 <!-- Sport Highlight -->
                 <LinearLayout
+                    android:id="@+id/highlight_3"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
@@ -325,6 +328,7 @@
 
                 <!-- Design Highlight -->
                 <LinearLayout
+                    android:id="@+id/highlight_4"
                     android:layout_width="0dp"
                     android:layout_height="wrap_content"
                     android:layout_weight="1"
