@@ -77,6 +77,11 @@
             android:exported="false"
             android:theme="@style/Theme.I210575.NoActionBar" />
             
+        <activity
+            android:name=".NotificationActivity"
+            android:exported="false"
+            android:theme="@style/Theme.I210575.NoActionBar" />
+            
     </application>
 
 </manifest>

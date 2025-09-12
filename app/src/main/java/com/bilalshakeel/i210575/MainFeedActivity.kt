@@ -100,7 +100,8 @@ class MainFeedActivity : AppCompatActivity() {
         
         // Heart/Activity navigation
         heartNav.setOnClickListener {
-            // TODO: Navigate to activity screen
+            val intent = Intent(this, NotificationActivity::class.java)
+            startActivity(intent)
         }
         
         // Profile navigation
