@@ -106,7 +106,8 @@ class MainFeedActivity : AppCompatActivity() {
         
         // Profile navigation
         profileNav.setOnClickListener {
-            // TODO: Navigate to profile screen
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
         }
     }
 }

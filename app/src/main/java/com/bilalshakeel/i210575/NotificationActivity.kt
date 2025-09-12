@@ -67,7 +67,8 @@ class NotificationActivity : AppCompatActivity() {
         }
 
         findViewById<LinearLayout>(R.id.profile_nav).setOnClickListener {
-            // Handle profile navigation
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
         }
     }
 
