@@ -120,12 +120,14 @@
 
                 <!-- Message 1: joshua_l -->
                 <LinearLayout
+                    android:id="@+id/message_item_1"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:gravity="center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="12dp"
+                    android:background="?android:attr/selectableItemBackground">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="56dp"
@@ -195,9 +197,14 @@
 
                 <!-- Message 2: karennne -->
                 <LinearLayout
+                    android:id="@+id/message_item_2"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="12dp"
+                    android:background="?android:attr/selectableItemBackground">
                     android:gravity="center_vertical"
                     android:paddingHorizontal="16dp"
                     android:paddingVertical="12dp">
@@ -270,9 +277,14 @@
 
                 <!-- Message 3: martini_rond -->
                 <LinearLayout
+                    android:id="@+id/message_item_3"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="12dp"
+                    android:background="?android:attr/selectableItemBackground">
                     android:gravity="center_vertical"
                     android:paddingHorizontal="16dp"
                     android:paddingVertical="12dp">
@@ -345,9 +357,14 @@
 
                 <!-- Message 4: andrewww_ -->
                 <LinearLayout
+                    android:id="@+id/message_item_4"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="12dp"
+                    android:background="?android:attr/selectableItemBackground">
                     android:gravity="center_vertical"
                     android:paddingHorizontal="16dp"
                     android:paddingVertical="12dp">
@@ -420,9 +437,14 @@
 
                 <!-- Message 5: kiero_d -->
                 <LinearLayout
+                    android:id="@+id/message_item_5"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
+                    android:gravity="center_vertical"
+                    android:paddingHorizontal="16dp"
+                    android:paddingVertical="12dp"
+                    android:background="?android:attr/selectableItemBackground">
                     android:gravity="center_vertical"
                     android:paddingHorizontal="16dp"
                     android:paddingVertical="12dp">
@@ -495,12 +517,14 @@
 
                 <!-- Message 6: maxjacobson -->
                 <LinearLayout
+                    android:id="@+id/message_item_6"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:orientation="horizontal"
                     android:gravity="center_vertical"
                     android:paddingHorizontal="16dp"
-                    android:paddingVertical="12dp">
+                    android:paddingVertical="12dp"
+                    android:background="?android:attr/selectableItemBackground">
 
                     <androidx.cardview.widget.CardView
                         android:layout_width="56dp"
