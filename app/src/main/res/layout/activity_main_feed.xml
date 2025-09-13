@@ -93,11 +93,13 @@
 
                     <!-- Your Story -->
                     <LinearLayout
+                        android:id="@+id/your_story_button"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="8dp"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:background="?android:attr/selectableItemBackground">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="70dp"
@@ -123,11 +125,13 @@
 
                     <!-- Story 2 -->
                     <LinearLayout
+                        android:id="@+id/other_story_1"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="8dp"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:background="?android:attr/selectableItemBackground">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="70dp"
@@ -152,11 +156,13 @@
 
                     <!-- Story 3 -->
                     <LinearLayout
+                        android:id="@+id/other_story_2"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="8dp"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:background="?android:attr/selectableItemBackground">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="70dp"
@@ -181,9 +187,13 @@
 
                     <!-- Story 4 -->
                     <LinearLayout
+                        android:id="@+id/other_story_3"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="8dp"
+                        android:gravity="center"
+                        android:orientation="vertical"
+                        android:background="?android:attr/selectableItemBackground">
                         android:gravity="center"
                         android:orientation="vertical">
 
@@ -210,11 +220,13 @@
 
                     <!-- Story 5 -->
                     <LinearLayout
+                        android:id="@+id/other_story_4"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginHorizontal="8dp"
                         android:gravity="center"
-                        android:orientation="vertical">
+                        android:orientation="vertical"
+                        android:background="?android:attr/selectableItemBackground">
 
                         <androidx.cardview.widget.CardView
                             android:layout_width="70dp"

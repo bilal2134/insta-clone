@@ -102,6 +102,26 @@
             android:exported="false"
             android:theme="@style/Theme.I210575.NoActionBar" />
             
+        <activity
+            android:name=".CameraActivity"
+            android:exported="false"
+            android:theme="@style/Theme.I210575.NoActionBar" />
+            
+        <activity
+            android:name=".OtherPersonStoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.I210575.NoActionBar" />
+            
+        <activity
+            android:name=".AddStoryActivity"
+            android:exported="false"
+            android:theme="@style/Theme.I210575.NoActionBar" />
+            
+        <activity
+            android:name=".MyStoryViewActivity"
+            android:exported="false"
+            android:theme="@style/Theme.I210575.NoActionBar" />
+            
     </application>
 
 </manifest>

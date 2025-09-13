@@ -4,6 +4,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.Button
 import android.widget.ImageView
+import android.widget.LinearLayout
 import android.widget.TextView
 import androidx.appcompat.app.AppCompatActivity
 import androidx.cardview.widget.CardView
@@ -24,7 +25,8 @@ class MainFeedActivity : AppCompatActivity() {
         
         // Camera icon click
         cameraIcon.setOnClickListener {
-            // TODO: Open camera functionality
+            val intent = Intent(this, CameraActivity::class.java)
+            startActivity(intent)
         }
         
         // IGTV icon click
@@ -79,6 +81,9 @@ class MainFeedActivity : AppCompatActivity() {
             }
         }
         
+        // Set up story navigation
+        setupStoryNavigation()
+        
         // Set up bottom navigation
         val homeNav = findViewById<ImageView>(R.id.nav_home)
         val searchNav = findViewById<ImageView>(R.id.nav_search)
@@ -108,6 +113,35 @@ class MainFeedActivity : AppCompatActivity() {
         // Profile navigation
         profileNav.setOnClickListener {
             val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
+        }
+    }
+    
+    private fun setupStoryNavigation() {
+        // Your Story (opens camera for adding story)
+        findViewById<LinearLayout>(R.id.your_story_button).setOnClickListener {
+            val intent = Intent(this, CameraActivity::class.java)
+            startActivity(intent)
+        }
+        
+        // Other people's stories (opens story viewer)
+        findViewById<LinearLayout>(R.id.other_story_1).setOnClickListener {
+            val intent = Intent(this, OtherPersonStoryActivity::class.java)
+            startActivity(intent)
+        }
+        
+        findViewById<LinearLayout>(R.id.other_story_2).setOnClickListener {
+            val intent = Intent(this, OtherPersonStoryActivity::class.java)
+            startActivity(intent)
+        }
+        
+        findViewById<LinearLayout>(R.id.other_story_3).setOnClickListener {
+            val intent = Intent(this, OtherPersonStoryActivity::class.java)
+            startActivity(intent)
+        }
+        
+        findViewById<LinearLayout>(R.id.other_story_4).setOnClickListener {
+            val intent = Intent(this, OtherPersonStoryActivity::class.java)
             startActivity(intent)
         }
     }
