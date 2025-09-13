@@ -10,6 +10,7 @@
     
     <!-- Instagram like colors -->
     <color name="instagram_red">#B85C5C</color>
+    <color name="instagram_blue">#3897F0</color>
     <color name="light_brown">#9B6B6B</color>
     <color name="dark_brown">#8B4513</color>
     <color name="light_gray">#F5F5F5</color>
