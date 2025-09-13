@@ -95,7 +95,8 @@ class MainFeedActivity : AppCompatActivity() {
         
         // Add post navigation
         addNav.setOnClickListener {
-            // TODO: Navigate to add post screen
+            val intent = Intent(this, UploadPhotoActivity::class.java)
+            startActivity(intent)
         }
         
         // Heart/Activity navigation

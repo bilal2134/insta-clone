@@ -49,17 +49,20 @@ class DiscoverFeedActivity : AppCompatActivity() {
         
         // Add post navigation
         addNav.setOnClickListener {
-            // TODO: Navigate to add post screen
+            val intent = Intent(this, UploadPhotoActivity::class.java)
+            startActivity(intent)
         }
         
         // Heart/Activity navigation
         heartNav.setOnClickListener {
-            // TODO: Navigate to activity screen
+            val intent = Intent(this, NotificationActivity::class.java)
+            startActivity(intent)
         }
         
         // Profile navigation
         profileNav.setOnClickListener {
-            // TODO: Navigate to profile screen
+            val intent = Intent(this, ProfileActivity::class.java)
+            startActivity(intent)
         }
     }
 }
